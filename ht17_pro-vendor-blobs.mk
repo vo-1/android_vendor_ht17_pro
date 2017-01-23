@@ -67,6 +67,10 @@ PRODUCT_COPY_FILES += \
     vendor/homtom/ht17_pro/proprietary/bin/s62xd:system/bin/s62xd \
     vendor/homtom/ht17_pro/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/homtom/ht17_pro/proprietary/bin/gx_fpcmd:system/bin/gx_fpcmd \
+    vendor/homtom/ht17_pro/proprietary/bin/gx_fpcmd:system/bin/af7133d \
+    vendor/homtom/ht17_pro/proprietary/bin/gx_fpcmd:system/bin/gatekeeperd \
+    vendor/homtom/ht17_pro/proprietary/lib/libgatekeeper.so:system/lib/libgatekeeper.so \
+    vendor/homtom/ht17_pro/proprietary/lib64/libgatekeeper.so:system/lib64/libgatekeeper.so \
     vendor/homtom/ht17_pro/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/homtom/ht17_pro/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/homtom/ht17_pro/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
@@ -437,6 +441,7 @@ PRODUCT_COPY_FILES += \
     vendor/homtom/ht17_pro/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
     vendor/homtom/ht17_pro/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
     vendor/homtom/ht17_pro/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
+    vendor/homtom/ht17_pro/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/homtom/ht17_pro/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
     vendor/homtom/ht17_pro/proprietary/lib64/hw/fingerprint.microarray.so:system/lib64/hw/fingerprint.microarray.so \
     vendor/homtom/ht17_pro/proprietary/lib64/libalgoandroid.so:system/lib64/libalgoandroid.so \
